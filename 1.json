@@ -125,7 +125,15 @@
       "description": "PVC-based products and applications",
       "displayOrder": 5,
       "status": "Active"
-    }
+    },
+    {
+  "id": "projection",
+  "name": "Projection Screens",
+  "icon": "📽️",
+  "description": "Front, rear and specialist projection surfaces",
+  "displayOrder": 6,
+  "status": "Active"
+}
   ],
   "recommendationRules": [
     {
