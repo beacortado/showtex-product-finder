@@ -1,0 +1,177 @@
+{
+  "products": [
+    {
+      "id": "MOLTON",
+      "name": "Molton",
+      "solutionId": "stage-masking",
+      "solutionName": "Stage Masking",
+      "material": "100% Cotton",
+      "description": "Budget-friendly stage masking fabric",
+      "benefits": [
+        "Suitable for masking and draping applications",
+        "Helps absorb light and reduce reflections",
+        "Offers acoustic benefits"
+      ],
+      "tradeoff": "Flame-retardancy requirements should be checked for the selected specification and colour",
+      "rentalSuitability": "Moderate",
+      "maintenanceLevel": "Moderate",
+      "productPageUrl": "https://www.showtex.com/en/products/soft-goods/masking-draping/dim-blackout-fabric/molton",
+      "imageUrl": "https://www.showtex.com/sites/default/files/styles/image_style_scale_width_lg/public/media/images/2025-05/Molton-ShowTex-01.jpg?itok=gFEzkTVO",
+      "status": "To Review",
+      "dataSource": "ShowTex product page",
+      "lastReviewed": "2026-11-02"
+    },
+    {
+      "id": "MOLTON-CS",
+      "name": "Molton CS",
+      "solutionId": "pes-fr",
+      "solutionName": "PES FR Fabrics",
+      "material": "100% PES FR",
+      "description": "Inherently and permanently flame-retardant fabric",
+      "benefits": [
+        "Permanent flame retardancy",
+        "Suitable for rental curtains",
+        "Offers acoustic benefits"
+      ],
+      "tradeoff": "May involve a higher initial investment than standard Molton",
+      "rentalSuitability": "High",
+      "maintenanceLevel": "Low",
+      "productPageUrl": "https://www.showtex.com/en/products/soft-goods/masking-draping/dim-blackout-fabric/molton-cs",
+      "imageUrl": "https://www.showtex.com/sites/default/files/styles/image_style_scale_width_lg/public/media/images/2025-05/Molton-CS-ShowTex-01.jpg?itok=1cHAZ94m",
+      "status": "To Review",
+      "dataSource": "ShowTex product page",
+      "lastReviewed": "2026-11-02"
+    },
+    {
+      "id": "MOLTON-CS-PRINT",
+      "name": "Molton CS Print",
+      "solutionId": "printed",
+      "solutionName": "Printed Fabrics",
+      "material": "100% PES FR",
+      "description": "Printable, permanently flame-retardant fabric",
+      "benefits": [
+        "Suitable for custom-printed drapes",
+        "Permanent flame retardancy",
+        "Offers acoustic benefits"
+      ],
+      "tradeoff": "Printing requirements may increase cost or production lead time",
+      "rentalSuitability": "Moderate",
+      "maintenanceLevel": "Low",
+      "productPageUrl": "https://www.showtex.com/en/products/soft-goods/masking-draping/dim-blackout-fabric/molton-cs-print",
+      "imageUrl": "https://www.showtex.com/sites/default/files/styles/image_style_scale_width_lg/public/media/images/2026-02/3807-molton-cs-print-showtex-01.JPG?itok=O6aaEZq-",
+      "status": "To Review",
+      "dataSource": "ShowTex product page",
+      "lastReviewed": "2026-11-02"
+    },
+    {
+      "id": "RP-OFF-WHITE",
+      "name": "RP Off-White",
+      "solutionId": "projection",
+      "solutionName": "Projection Screen",
+      "material": "100% PVC",
+      "description": "twin projection screen, ideal for edge blending",
+      "benefits": [
+        "Dual projection with very wide viewing angle without gain loss",
+        "Nicely spread light yield",
+        "Printable, ideal for lightbox"
+      ],
+      "tradeoff": "Results may vary depending on the tensioned state of the projection surface",
+      "rentalSuitability": "Moderate",
+      "maintenanceLevel": "Low",
+      "productPageUrl": "https://www.showtex.com/en/products/soft-goods/projection-light-effects/projection-screens/rp-white",
+      "imageUrl": "https://www.showtex.com/sites/default/files/styles/image_style_scale_width_lg/public/media/images/2026-10/4820-rp-off-white-ShowTex-01.png?itok=gTZSNq-_",
+      "status": "Draft",
+      "dataSource": "ShowTex product page",
+      "lastReviewed": "2026-11-02"
+    }
+  ],
+  "solutionCategories": [
+    {
+      "id": "stage-masking",
+      "name": "Stage Masking",
+      "icon": "🎭",
+      "description": "Masking, borders, legs and backdrops",
+      "displayOrder": 1,
+      "status": "Active"
+    },
+    {
+      "id": "pes-fr",
+      "name": "PES FR Fabrics",
+      "icon": "🧵",
+      "description": "Permanent flame-retardant textiles",
+      "displayOrder": 2,
+      "status": "Active"
+    },
+    {
+      "id": "printed",
+      "name": "Printed Fabrics",
+      "icon": "🖨️",
+      "description": "Textiles for custom-printed applications",
+      "displayOrder": 3,
+      "status": "Active"
+    },
+    {
+      "id": "led",
+      "name": "LED Curtains",
+      "icon": "✨",
+      "description": "Illuminated textile solutions",
+      "displayOrder": 4,
+      "status": "Active"
+    },
+    {
+      "id": "pvc",
+      "name": "PVC Solutions",
+      "icon": "🧱",
+      "description": "PVC-based products and applications",
+      "displayOrder": 5,
+      "status": "Active"
+    }
+  ],
+  "recommendationRules": [
+    {
+      "startingProductId": "MOLTON",
+      "priority": "Budget",
+      "recommendedProductId": "MOLTON",
+      "reason": "Appropriate where upfront budget is the main concern",
+      "evidence": "Product positioning and reviewed commercial guidance",
+      "tradeoff": "May not offer the same permanent flame-retardant characteristics as a PES FR alternative",
+      "status": "Draft"
+    },
+    {
+      "startingProductId": "MOLTON",
+      "priority": "Rental Use",
+      "recommendedProductId": "MOLTON-CS",
+      "reason": "Better suited to repeated professional use",
+      "evidence": "Product description and intended rental application",
+      "tradeoff": "May involve a higher initial investment",
+      "status": "Draft"
+    },
+    {
+      "startingProductId": "MOLTON",
+      "priority": "Maintenance",
+      "recommendedProductId": "MOLTON-CS",
+      "reason": "Synthetic fibres support easier maintenance",
+      "evidence": "Product description and technical review",
+      "tradeoff": "May involve a higher initial investment",
+      "status": "Draft"
+    },
+    {
+      "startingProductId": "MOLTON-CS-PRINT",
+      "priority": "Printing",
+      "recommendedProductId": "MOLTON-CS-PRINT",
+      "reason": "Designed for printable applications",
+      "evidence": "Product description and print specification",
+      "tradeoff": "Printing requirements may increase cost or lead time",
+      "status": "Draft"
+    },
+    {
+      "startingProductId": "RP-OFF-WHITE",
+      "priority": "Printing",
+      "recommendedProductId": "RP-OFF-WHITE",
+      "reason": "Designed for printable, backlit applications",
+      "evidence": "Product description and print specification",
+      "tradeoff": "Can only do UV printing method; may increase the cost and lead time",
+      "status": "Draft"
+    }
+  ]
+}
